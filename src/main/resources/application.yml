@@ -1,0 +1,6 @@
+server:
+  port: 18080
+spring:
+  redis:
+    database: 1
+    port: 6379
