@@ -3,6 +3,11 @@
 for i = 10, 1, -1 do
 print("value of i:", i)
 end
+local array = {'jack', 'tom', 'bob'}
+for i, v in ipairs(array) do
+    print("本次循环打印value：", v)
+    print('本次循环打印key:', i)
+end
 -- while loop
 a = 10
 while (a < 20) do

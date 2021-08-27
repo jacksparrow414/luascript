@@ -6,4 +6,6 @@ print(string.len(msg))
 print(string.reverse(msg))
 print(string.gsub(msg, "age", "AGE"))
 print(string.rep(msg,3))
+local msg1 = 'msg1'
+print(msg1 .. 'append' .. 'builder')
 
